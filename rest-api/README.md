@@ -1,3 +1,9 @@
+## API
+
+- Application Programming Interface.
+- a set of rules that allows different software applications to communicate with each other.
+- An API defines the way that different software components should interact with each other.
+
 ## sending or posting data using rest.http
 
 - need to send data as object as json file
