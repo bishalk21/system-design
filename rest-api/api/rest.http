@@ -18,7 +18,7 @@ GET http://localhost:8080/todos
 GET http://localhost:8080/todos/1
 
 ### update a todo by id
-PUT http://localhost:8080/todos/1
+PUT http://localhost:8080/todos/10
 Content-Type: application/json
 
 {

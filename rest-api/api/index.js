@@ -66,6 +66,7 @@ app.put("/todos/:id", (req, res) => {
   } else {
     // if the todo doesn't exist, send a 404 response
     res.status(404).json({ message: "Todo not found" });
+    return; // exit the function to avoid sending another response
   }
 
   res.status(200).json({
